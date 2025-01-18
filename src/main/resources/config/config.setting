@@ -1,0 +1,19 @@
+#【必选设置】
+# 单个 excel 的行数
+excel_rows = 3
+
+#【可选设置】
+#手动设置 sql 查询的总行数，仅当 sql 文件数量为 1 时，该参数生效，否则将查询总行数。若未指定该参数也会查询总行数
+query_total_count =
+#待导出的 sql 文件路径。可以手动指定一个 sql 文件的存放目录，若未指定，这默认为本程序中的 sql 目录
+sql_directory =
+# 导出 excel 的路径。若未设置，将会导出在与 sql 文件同级目录下，一个以当天日期命名的目录中，例：export_2020-1-1/
+#excel_directory = /Users/may/ztmp
+excel_directory = D:\ztmp
+#快速分页标记前缀( 默认为：@fast{)
+fast_count_prefix =
+#快速分页标记后缀( 默认为：}@ )
+fast_count_suffix =
+# 快速分页标记组合起来就是： @fast{...sql...}@
+
+
